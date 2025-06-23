@@ -62,7 +62,7 @@ signUpButton.addEventListener("click", function (e) {
           Sign Up
         </button>
         <p class="text-white fs-4">
-          have an account ?
+          Have an account ?
           <span
             ><a class="signUpButton text-decoration-none" href=""
               >Sign In!</a
