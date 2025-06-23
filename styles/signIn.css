@@ -2,6 +2,15 @@ body {
   background-color: #24353f;
 }
 
+.navbar {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+}
+
+.inner-navbar button:hover {
+  background-color: #ffc107 !important;
+  color: #ffffff !important;
+}
+
 .form {
   box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.6);
@@ -50,5 +59,11 @@ input:focus {
 }
 
 .inner-container p a {
-    color: #17a2b8;
+  color: #17a2b8;
+}
+
+span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #17a2b8;
 }
